@@ -1,0 +1,13 @@
+html, body{
+	height: 100%;
+}
+.on{
+	background-color: white;
+	height: 50%;
+	color :black;
+}
+.off{
+	background-color: black;
+	height: 50%;
+	color: white;
+}

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Led</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+	<div onclick="location.href = '/on/'" class="on container-fluid">
+		<h1 class="d-flex justify-content-center">On</h1>
+	</div>
+	<div onclick="location.href ='/off/'" class="off container-fluid">
+		<h1 class="d-flex justify-content-center">Off</h1>
+	</div>
+</body>
+</html>
